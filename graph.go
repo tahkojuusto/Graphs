@@ -4,10 +4,6 @@ import (
 	"fmt"
 )
 
-type Pair struct {
-	first, second interface{}
-}
-
 // Graph consists of nodes and edges.
 type Graph struct {
 	name  string
