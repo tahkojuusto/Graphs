@@ -19,11 +19,11 @@ func main() {
 	G.AddNode(D)
 	G.AddNode(E)
 
-	G.AddNeighbor(A, B)
-	G.AddNeighbor(A, C)
-	G.AddNeighbor(B, D)
-	G.AddNeighbor(D, A)
-	G.AddNeighbor(D, B)
+	G.AddNeighbor(A, B, 1)
+	G.AddNeighbor(A, C, 2)
+	G.AddNeighbor(B, D, 3)
+	G.AddNeighbor(D, A, 4)
+	G.AddNeighbor(D, B, 5)
 
 	fmt.Println(G)
 }
